@@ -1,6 +1,4 @@
-# Benchmarking method to take input from `stdin` 
-
-
+# Benchmarking different methods to take input from `stdin` 
 
 This repository was made to measure the performance of these methods to take integer input from `stdin` in C++:
 
@@ -33,9 +31,13 @@ You can use the `./gen_result.sh` to generate the results on your device.
 
 
 ## Compiler and Device Specs
+
+The specifications of the device on which these results were obtained are given below:
+
 | Component | Specification              |
 |-----------|----------------------------|
 | Compiler  | GNU 7.5.0                  |
 | Processor | Intel(R) Core(TM) i5-9300H |
 | RAM       | 8 GB                       |
 
+The data used to generate the benchmark is given in the resource directory.
